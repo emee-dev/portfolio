@@ -56,9 +56,10 @@ export default function Home() {
 						{/* GM, I'm Max. I enjoy building dynamic, creative products from start
 						to finish. Focused on developing intuitive experiences that
 						constantly grow and improve based on user metrics. Always shipping. */}
-						Hello, I'm emee. I envy beautiful dynamic, creative products which
-						lead me to create, and publish even better products. I am focused on
-						developing intuitive experiences for my users. I love indie hacking.
+						Hello, I'm Emmanuel. I envy beautiful dynamic, creative products
+						which lead me to create, and publish even better products. I am
+						focused on developing intuitive experiences for my users. I love
+						indie hacking.
 					</Text>
 				</Box>
 				<Box mb={14}>
@@ -136,7 +137,7 @@ export default function Home() {
 						image="/offline.gif"
 						side="Ongoing"
 						title="Postman Alternative Http Client"
-						desc="Readable, diffable, local first. File based request collection. A free and simple and offline based Http client. Desktop and CLI"
+						desc="Readable, diffable, local first. File based request collection. A free and simple and offline based Http client. Desktop and CLI supported."
 						stack="Rust • Tauri • Turborepo • file based • fully offline"
 					/>
 
@@ -186,6 +187,12 @@ export default function Home() {
 						side="Twitter"
 						title="@___emee_"
 						href="https://x.com/___emee_"
+						mb={4}
+					/>
+					<Experience
+						side="Credits"
+						title="@bonhomme"
+						href="https://github.com/maximebonhomme/bonhomme-2022"
 						mb={4}
 					/>
 				</Box>
