@@ -97,11 +97,12 @@ export default function Home() {
 					/> */}
 
 					<Experience
-						href="https://hacked.treblle.com/"
+						// href="https://hacked.treblle.com/"
+						href="https://treblle-monorepo-docs.vercel.app/"
 						side="2023"
 						title="Treblle SDK – Hacktoberfest"
 						desc="Accounting for security, load balancing and data masking. I built an SDK that captures incoming API requests and responses, and sends that to Treblle servers."
-						stack="Express Js • Typescript"
+						stack="Express Js • Typescript • Nextra docs"
 					/>
 
 					<Heading as="h2" size="md" mt={14} mb={10}>
