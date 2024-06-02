@@ -1,8 +1,5 @@
-import { Box, Image, Flex, keyframes, useDisclosure } from "@chakra-ui/react";
+import { Box, Flex, Image, keyframes, useDisclosure } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import { useAccount, useEnsName } from "wagmi";
-import { trimAddress } from "../utils/address";
-import { MintModal } from "./MintModal";
 
 const spin = keyframes`
   from {transform: rotate(0deg);}
@@ -27,14 +24,6 @@ export const Avatar = () => {
 
 	return (
 		<>
-			{/* {address && (
-				<MintModal
-					name={ensName || trimAddress(address)}
-					isOpen={isOpen}
-					onOpen={onOpen}
-					onClose={onClose}
-				/>
-			)} */}
 			<Box
 				as="button"
 				onClick={onOpen}

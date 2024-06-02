@@ -1,9 +1,8 @@
-import { Link, Box, Text, Heading, GridItem } from "@chakra-ui/react";
+import { Box, GridItem, Heading, Link, Text } from "@chakra-ui/react";
 import Head from "next/head";
-import { Grid } from "../components/Grid";
-import { Experience } from "../components/Experience";
-import Cursor from "../components/Cursor";
 import { Avatar } from "../components/Avatar";
+import { Experience } from "../components/Experience";
+import { Grid } from "../components/Grid";
 
 export default function Home() {
 	return (

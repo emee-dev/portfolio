@@ -1,20 +1,12 @@
-import React, { useRef, useState, useEffect } from "react";
 import { Box, Flex, Image } from "@chakra-ui/react";
-import { useEnsName, useEnsAvatar, useAccount } from "wagmi";
+import { useEffect, useRef, useState } from "react";
 import { useMouse, useWindowSize } from "react-use";
 import { trimAddress } from "../utils/address";
 
 const Cursor = () => {
 	const [hasMounted, setMounted] = useState(false);
 	const { width } = useWindowSize();
-	// const { address } = useAccount();
 	const address = "1992918";
-	// const { data: ensName } = useEnsName({
-	// 	address,
-	// });
-	// const { data: ensAvatar } = useEnsAvatar({
-	// 	addressOrName: address,
-	// });
 
 	const ensAvatar = false;
 	const ensName = true;
