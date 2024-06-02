@@ -78,8 +78,8 @@ export default function Home() {
 						side="2020 - 2022"
 						title="Full Stack & Technical Lead – Everpress"
 						desc="Led a team of 5 engineers to develop our creator tools and e-commerce
-        app. Collaborated closely with the Head of Product to track our tactical
-        objectives, improve technical directions and shipping frequency."
+						app. Collaborated closely with the Head of Product to track our tactical
+						objectives, improve technical directions and shipping frequency."
 						stack="React • Redux • Symfony • AWS"
 					/>
 					<Experience
