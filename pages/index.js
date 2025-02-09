@@ -25,18 +25,9 @@ export default function Home() {
           <GridItem colSpan={3}>
             <Box>
               <Heading as="h1" size="lg">
-                {/* Maxime Bonhomme */}
                 Emmanuel Ajike
               </Heading>
-              {/* <Text>Product-focused Fullstack Developer</Text> */}
-              <Text>Solution-Oriented Fullstack Developer</Text>
-              {/* <Link
-								color="white"
-								opacity={0.5}
-								href="https://etherscan.io/address/0xff5fe6e0d3d48c90a66217dd4a7560a3ed8dacd2"
-							>
-								bonhomme.eth
-							</Link> */}
+              <Text>Backend-oriented Fullstack Developer</Text>
               <Link
                 color="white"
                 opacity={0.5}
@@ -52,9 +43,6 @@ export default function Home() {
             About
           </Heading>
           <Text>
-            {/* GM, I'm Max. I enjoy building dynamic, creative products from start
-						to finish. Focused on developing intuitive experiences that
-						constantly grow and improve based on user metrics. Always shipping. */}
             Hello, I'm Emmanuel. I envy beautiful dynamic, creative products
             which lead me to create, and publish even better products. I am
             focused on developing intuitive experiences for my users. I love
@@ -109,35 +97,12 @@ export default function Home() {
             Side Projects
           </Heading>
 
-          {/* <Experience
-						image="/offline.gif"
-						side="Ongoing"
-						title="Offline Nostalgia"
-						desc="Generative art project around the offline era. Only collectible in person."
-						stack="Solidity • P5.js • fully onchain"
-					/>
-					<Experience
-						image="/tamiko.svg"
-						side="Paused"
-						title="Tamiko"
-						desc="Tamiko are non-fungible friends that live completely on-chain. You can hatch, feed, breed and evolve them."
-						stack="Solidity • ERC721 • ERC1155 • Next.js"
-					/>
-					<Experience
-						href="https://kineticspectru.ms/"
-						image="/kineticspectrum.png"
-						side="2022"
-						title="Kinetic Spectrums"
-						desc="Generative on-chain NFTs. A collection of dynamic, ever changing artworks."
-						stack="Solidity • ERC721 • Next.js"
-					/> */}
-
           <Experience
-            href="https://github.com/emee-dev/rustclient"
+            href="https://github.com/emee-dev/useworm"
             image="/offline.gif"
             side="Ongoing"
-            title="Postman Http Client Alternative"
-            desc="Readable, diffable, local first. File based request collection. A free and simple and offline based Http client. Desktop and CLI supported."
+            title="Postman Alternative"
+            desc="Readable, diffable, local first. File based request collection. A free and simple and offline based Http client."
             stack="Rust • Tauri • Turborepo • file based • fully offline"
           />
 
