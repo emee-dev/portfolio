@@ -54,39 +54,8 @@ export default function Home() {
             Work Experience
           </Heading>
 
-          {/* <Experience
-						href="https://iyk.app"
-						side="2022 - present"
-						title="Senior Frontend Engineer – IYK"
-						desc="Building the Whole Wide World﹡"
-						stack="Remix • Prisma • Tailwind • Shadcn"
-					/>
-					<Experience
-						href="https://everpress.com/"
-						side="2020 - 2022"
-						title="Full Stack & Technical Lead – Everpress"
-						desc="Led a team of 5 engineers to develop our creator tools and e-commerce
-						app. Collaborated closely with the Head of Product to track our tactical
-						objectives, improve technical directions and shipping frequency."
-						stack="React • Redux • Symfony • AWS"
-					/>
-					<Experience
-						side="2016 – 2020"
-						title="Front End Engineer – Freelance"
-						desc="Worked with a range of large and small agencies, start-ups and individuals to build products. Clients included Marvel App, United Nations, Netflix, Dropbox Design."
-						stack="React • Redux • Styled Components • Framer Motion"
-					/>
-					<Experience
-						href="https://neverbland.com/"
-						side="2014 – 2016"
-						title="Front End Engineer – Neverbland"
-						desc="Part of a tight-knit team of designers, developers and critical thinkers, I built MVP products and marketing experiences for start-ups."
-						stack="React • Redux • CSSModules • Three.js"
-					/> */}
-
           <Experience
-            // href="https://hacked.treblle.com/"
-            href="https://treblle-monorepo-docs.vercel.app/"
+            href="https://hacked.treblle.com/"
             side="2023"
             title="Treblle SDK – Hacktoberfest"
             desc="Accounting for security, load balancing and data masking. I built an SDK that captures incoming API requests and responses, and sends that to Treblle servers."
@@ -98,7 +67,7 @@ export default function Home() {
           </Heading>
 
           <Experience
-            href="https://github.com/emee-dev/useworm"
+            href="https://github.com/emee-dev/pinpanda"
             image="/offline.gif"
             side="Ongoing"
             title="Postman Alternative"
@@ -120,8 +89,8 @@ export default function Home() {
 
           {/* <Experience
 						side="Github"
-						title="@maximebonhomme"
-						href="https://github.com/maximebonhomme"
+						title="@/"
+						href="https://github.com/___"
 						mb={4}
 					/>
 					<Experience
